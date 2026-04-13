@@ -1,12 +1,50 @@
-# Build
+# Rust
 target/
+**/*.rs.bk
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+.venv/
+venv/
+*.whl
+
+# PID/lock files
+*.pid
+
+# Credentials
+*credential*
+*credential*.*
+.env
+.env.*
+!.env.example
 
 # IDE
 .idea/
 .vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing / Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
 
 # OMC state
 .omc/
 
-# OS
-.DS_Store
+# Claude Code
+.claude/
+.agents/
+skills-lock.json
